@@ -108,3 +108,85 @@ Verify the connector's configuration, identify and stop any process that's liste
 2024-05-22 14:15:37.270  INFO 64908 --- [RMI TCP Connection(1)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-05-22 14:15:37.274  INFO 64908 --- [RMI TCP Connection(1)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
 2024-05-22 14:22:09.170  INFO 64908 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-22 14:55:11.171  INFO 74212 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Starting SofaDemoApplication using Java 1.8.0_392 on LAPTOP-AMJ6QTJK with PID 74212 (D:\javaproject\sofaDemo\target\classes started by 17414 in D:\javaproject\sofaDemo)
+2024-05-22 14:55:11.172  INFO 74212 --- [main] com.ccsu.sofademo.SofaDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22 14:55:11.943  INFO 74212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-05-22 14:55:11.950  INFO 74212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-22 14:55:11.950  INFO 74212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2024-05-22 14:55:12.030  INFO 74212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-22 14:55:12.030  INFO 74212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2024-05-22 14:55:12.126  INFO 74212 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1初始化了
+2024-05-22 14:55:12.126  INFO 74212 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1 init ThreadName:main
+2024-05-22 14:55:12.127  INFO 74212 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2初始化了
+2024-05-22 14:55:12.127  INFO 74212 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2 init ThreadName:main
+2024-05-22 14:55:12.473  INFO 74212 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoint(s) beneath base path '/actuator'
+2024-05-22 14:55:12.497  WARN 74212 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2024-05-22 14:55:12.501  INFO 74212 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-22 14:55:12.512  INFO 74212 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-22 14:55:12.524 ERROR 74212 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2024-05-22 14:55:23.319  INFO 73792 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Starting SofaDemoApplication using Java 1.8.0_392 on LAPTOP-AMJ6QTJK with PID 73792 (D:\javaproject\sofaDemo\target\classes started by 17414 in D:\javaproject\sofaDemo)
+2024-05-22 14:55:23.320  INFO 73792 --- [main] com.ccsu.sofademo.SofaDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22 14:55:24.119  INFO 73792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2024-05-22 14:55:24.126  INFO 73792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-22 14:55:24.126  INFO 73792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2024-05-22 14:55:24.206  INFO 73792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-22 14:55:24.206  INFO 73792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
+2024-05-22 14:55:24.302  INFO 73792 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1初始化了
+2024-05-22 14:55:24.302  INFO 73792 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1 init ThreadName:main
+2024-05-22 14:55:24.303  INFO 73792 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2初始化了
+2024-05-22 14:55:24.303  INFO 73792 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2 init ThreadName:main
+2024-05-22 14:55:24.648  INFO 73792 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoint(s) beneath base path '/actuator'
+2024-05-22 14:55:24.681  INFO 73792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-05-22 14:55:24.706  INFO 73792 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Started SofaDemoApplication in 1.788 seconds (JVM running for 2.678)
+2024-05-22 14:55:25.332  INFO 73792 --- [RMI TCP Connection(1)-192.168.200.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22 14:55:25.332  INFO 73792 --- [RMI TCP Connection(1)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22 14:55:25.333  INFO 73792 --- [RMI TCP Connection(1)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-05-22 14:58:01.786  INFO 73592 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Starting SofaDemoApplication using Java 1.8.0_392 on LAPTOP-AMJ6QTJK with PID 73592 (D:\javaproject\sofaDemo\target\classes started by 17414 in D:\javaproject\sofaDemo)
+2024-05-22 14:58:01.786  INFO 73592 --- [main] com.ccsu.sofademo.SofaDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22 14:58:02.546  INFO 73592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2024-05-22 14:58:02.552  INFO 73592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-22 14:58:02.553  INFO 73592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2024-05-22 14:58:02.638  INFO 73592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-22 14:58:02.638  INFO 73592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 823 ms
+2024-05-22 14:58:02.735  INFO 73592 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1初始化了
+2024-05-22 14:58:07.742  INFO 73592 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1 init ThreadName:main
+2024-05-22 14:58:07.744  INFO 73592 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2初始化了
+2024-05-22 14:58:12.751  INFO 73592 --- [main] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2 init ThreadName:main
+2024-05-22 14:58:13.076  INFO 73592 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoint(s) beneath base path '/actuator'
+2024-05-22 14:58:13.109  INFO 73592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-05-22 14:58:13.129  INFO 73592 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Started SofaDemoApplication in 11.723 seconds (JVM running for 12.57)
+2024-05-22 14:58:14.202  INFO 73592 --- [RMI TCP Connection(5)-192.168.200.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22 14:58:14.202  INFO 73592 --- [RMI TCP Connection(5)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22 14:58:14.203  INFO 73592 --- [RMI TCP Connection(5)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-05-22 15:01:02.145  INFO 72796 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Starting SofaDemoApplication using Java 1.8.0_392 on LAPTOP-AMJ6QTJK with PID 72796 (D:\javaproject\sofaDemo\target\classes started by 17414 in D:\javaproject\sofaDemo)
+2024-05-22 15:01:02.145  INFO 72796 --- [main] com.ccsu.sofademo.SofaDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22 15:01:02.926  INFO 72796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2024-05-22 15:01:02.933  INFO 72796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-22 15:01:02.933  INFO 72796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2024-05-22 15:01:03.013  INFO 72796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-22 15:01:03.013  INFO 72796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 839 ms
+2024-05-22 15:01:03.140  INFO 72796 --- [async-init-bean-1-thread-1] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1初始化了
+2024-05-22 15:01:03.142  INFO 72796 --- [async-init-bean-1-thread-2] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2初始化了
+2024-05-22 15:01:03.464  INFO 72796 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoint(s) beneath base path '/actuator'
+2024-05-22 15:01:03.497  INFO 72796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-05-22 15:01:08.153  INFO 72796 --- [async-init-bean-1-thread-2] c.c.sofademo.beantest.impl.MyBeanImpl2   : MyBeanImpl2 init ThreadName:async-init-bean-1-thread-2
+2024-05-22 15:01:08.153  INFO 72796 --- [async-init-bean-1-thread-1] c.c.sofademo.beantest.impl.MyBeanImpl1   : MyBeanImpl1 init ThreadName:async-init-bean-1-thread-1
+2024-05-22 15:01:08.173  INFO 72796 --- [main] com.ccsu.sofademo.SofaDemoApplication    : Started SofaDemoApplication in 6.423 seconds (JVM running for 7.29)
+2024-05-22 15:01:08.724  INFO 72796 --- [RMI TCP Connection(2)-192.168.200.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22 15:01:08.725  INFO 72796 --- [RMI TCP Connection(2)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22 15:01:08.725  INFO 72796 --- [RMI TCP Connection(2)-192.168.200.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

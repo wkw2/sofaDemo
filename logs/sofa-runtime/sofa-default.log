@@ -153,3 +153,22 @@ Spring context initialize failed module list(0) >>>>>>>
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 2024-05-22 14:25:51,942 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of sofaDemo End +++++++++++++++++
+2024-05-22 14:53:09,065 INFO  main                             - SOFABoot Runtime Starting!
+2024-05-22 14:53:10,373 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of sofaDemo Start +++++++++++++++++
+2024-05-22 14:53:10,374 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of sofaDemo End +++++++++++++++++
+2024-05-22 14:53:10,374 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of sofaDemo Start +++++++++++++++++
+2024-05-22 14:53:10,374 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2024-05-22 14:53:10,376 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of sofaDemo End +++++++++++++++++
+2024-05-22 14:53:10,376 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of sofaDemo Start +++++++++++++++++
+2024-05-22 14:53:10,376 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2024-05-22 14:53:10,376 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of sofaDemo End +++++++++++++++++

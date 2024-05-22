@@ -147,3 +147,4 @@
 2024-05-22 14:25:52,394 INFO  RMI TCP Connection(1)-192.168.200.1 - HealthChecker[sofaComponentHealthChecker] liveness check start.
 2024-05-22 14:25:52,394 INFO  RMI TCP Connection(1)-192.168.200.1 - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
 2024-05-22 14:25:52,394 INFO  RMI TCP Connection(1)-192.168.200.1 - SOFABoot HealthChecker liveness check result: success.
+2024-05-22 14:53:10,200 INFO  main                             - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
