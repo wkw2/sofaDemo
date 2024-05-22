@@ -14,8 +14,8 @@ public class SofaDemoApplicationTests {
     private static Logger log = LoggerFactory.getLogger(SofaDemoApplicationTests.class);
     @Test
     public void test1() {
-        String a = "sofaBoot";
-        log.info("你好{}",a);
+        String sf = "sofaBoot";
+        log.info("你好{}",sf);
     }
 
 }

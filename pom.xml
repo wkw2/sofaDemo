@@ -2,10 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+<!--    <parent>-->
+<!--        <groupId>com.alipay.sofa</groupId>-->
+<!--        <artifactId>sofaboot-dependencies</artifactId>-->
+<!--        <version>3.3.1</version>-->
+<!--    </parent>-->
     <parent>
         <groupId>com.alipay.sofa</groupId>
         <artifactId>sofaboot-dependencies</artifactId>
-        <version>3.3.1</version>
+        <version>3.18.0</version>
     </parent>
     <groupId>com.ccsu</groupId>
     <artifactId>sofaDemo</artifactId>
@@ -27,6 +32,10 @@
 <!--        如果要使用类隔离能力的时候，我们必须使用如下引用。-->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
+            <artifactId>isle-sofa-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
             <artifactId>test-sofa-boot-starter</artifactId>
             <scope>test</scope>
         </dependency>
@@ -41,7 +50,10 @@
             <groupId>com.alipay.sofa</groupId>
             <artifactId>runtime-sofa-boot-starter</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
     </dependencies>
 
